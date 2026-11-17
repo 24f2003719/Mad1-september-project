@@ -1,0 +1,14 @@
+<form method="POST" action="{{ url_for('register') }}">
+    <input type="text" name="name" placeholder="Name" required>
+
+    <input type="email" name="email" placeholder="email" required>
+
+    <input type="password" name="password" placeholder="Code" required>
+
+    <select name="role" required>
+        <option value="student">Student mc</option>
+        <option value="examiner">examiner bkl</option>
+    </select>
+
+    <button type="submit">Register</button>
+</form>
